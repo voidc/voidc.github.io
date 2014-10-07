@@ -10,7 +10,6 @@ relative_permalinks: true
 title:            voidc
 tagline:          blog
 url:              http://voidc.github.com
-paginate:         0
 baseurl:          /
 author:
   name:           Dominik Stolz
