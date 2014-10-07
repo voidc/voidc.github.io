@@ -1,0 +1,17 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            voidc
+tagline:          blog
+url:              http://voidc.github.com
+paginate:         0
+baseurl:          /
+author:
+  name:           Dominik Stolz
+  url:            http://voidc.github.com
