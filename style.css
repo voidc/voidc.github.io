@@ -1,0 +1,12 @@
+body {
+    background: #f6f6f6;
+    color: #555;
+    font-family: 'Cousine', monospace, serif;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    margin: 5% auto;
+    max-width: 50%;
+}
