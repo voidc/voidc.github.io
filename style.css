@@ -1,6 +1,7 @@
 body {
-    background: #f6f6f6;
-    color: #555;
+    background: url(galaxy-alpha.png) #555 center center fixed no-repeat;
+    background-size: cover;
+    color: #eee;
     font-family: 'Cousine', monospace, serif;
     text-align: center;
 }
@@ -9,4 +10,9 @@ body {
     position: relative;
     margin: 5% auto;
     max-width: 50%;
+}
+
+a, a:visited, a:hover {
+    color:inherit;
+    test
 }
