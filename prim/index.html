@@ -81,7 +81,7 @@
 
             d3.timer(function (elapsed) {
                 for (var i = 0, c, r = elapsed / 2000, i4 = 0; i < n; ++i, i4 += 4) {
-                    c = colors[(c = ((Math.floor(distance[i]/50 + r*100) % 180) + Math.floor(180 * Math.cos(r)))) < 0 ? c + 360 : c];
+                    c = colors[(c = ((Math.floor(distance[i]/1 + r*100) % 180) + Math.floor(180 * Math.cos(r)))) < 0 ? c + 360 : c];
                     imageData[i4] = c.r;
                     imageData[i4 + 1] = c.g;
                     imageData[i4 + 2] = c.b;
