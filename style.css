@@ -1,9 +1,19 @@
+:root {
+    --bg-color: #000528;
+    --theme-color: #ef8a71;
+}
+
 body {
-    background: url(galaxy-alpha.png) #555 center center fixed no-repeat;
-    background-size: cover;
+    background-color: var(--bg-color);
     color: #eee;
     font-family: 'Cousine', monospace, serif;
     text-align: center;
+    letter-spacing: .9px;
+}
+
+::selection {
+    background: var(--theme-color);
+    color: #fff;
 }
 
 .container {
@@ -12,7 +22,12 @@ body {
     max-width: 50%;
 }
 
-a, a:visited, a:hover {
-    color:inherit;
-    test
+a {
+    border-bottom: 3px solid var(--theme-color);
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    background-color: var(--theme-color);
+    color: #fff;
 }
